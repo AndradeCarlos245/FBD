@@ -20,3 +20,6 @@ La motivación principal de este proyecto surge de la necesidad real que tienen 
 
 La falta de control en inventarios puede provocar pérdidas económicas, ya sea por productos caducados, faltantes no detectados o compras innecesarias. Asimismo, la ausencia de registros digitales dificulta el análisis de ventas, impidiendo conocer cuáles son los productos más vendidos, los horarios de mayor demanda o el rendimiento general del negocio.
 Finalmente, este proyecto no solo cumple un propósito académico, sino que también podría convertirse en una herramienta funcional que apoye a pequeños emprendedores en la mejora de su gestión administrativa, contribuyendo al crecimiento y sostenibilidad de sus negocios.
+
+## Cambios 
+Se realizó la modificación del atributo nombre en todas la tablas eseptuando la de producto debido a que originalmente contenía información compuesta. Para cumplir con la Primera Forma Normal, se descompuso en atributos atómicos: nombre, apellido_paterno y apellido_materno. De esta manera, cada campo almacena un solo valor indivisible, mejorando la integridad y organización de los datos.
